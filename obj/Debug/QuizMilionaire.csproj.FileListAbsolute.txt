@@ -1,0 +1,8 @@
+C:\Users\BlackPigeon\Desktop\Milionaire\QuizMilionaire\bin\Debug\QuizMilionaire.exe.config
+C:\Users\BlackPigeon\Desktop\Milionaire\QuizMilionaire\bin\Debug\QuizMilionaire.exe
+C:\Users\BlackPigeon\Desktop\Milionaire\QuizMilionaire\bin\Debug\QuizMilionaire.pdb
+C:\Users\BlackPigeon\Desktop\Milionaire\QuizMilionaire\obj\Debug\QuizMilionaire.csproj.AssemblyReference.cache
+C:\Users\BlackPigeon\Desktop\Milionaire\QuizMilionaire\obj\Debug\QuizMilionaire.csproj.SuggestedBindingRedirects.cache
+C:\Users\BlackPigeon\Desktop\Milionaire\QuizMilionaire\obj\Debug\QuizMilionaire.csproj.CoreCompileInputs.cache
+C:\Users\BlackPigeon\Desktop\Milionaire\QuizMilionaire\obj\Debug\QuizMilionaire.exe
+C:\Users\BlackPigeon\Desktop\Milionaire\QuizMilionaire\obj\Debug\QuizMilionaire.pdb
