@@ -21,5 +21,4 @@ How many human players are there on each side in a polo match?;Two;Eight;Twelve;
 What is the capital of New Zealand?;Thailand;China;Wellington;Serbia;C
 From what grain is the Japanese spirit Sake made?;Rice;Wheat;Oats;Barley;A
 Which Tennis Grand Slam is played on a clay surface?;Germany Open;French Open;Wimbledon;US;B
-test;1;2;3;4;D
 When did the second war ended?;8 May;30 April;2 September;1 December;C

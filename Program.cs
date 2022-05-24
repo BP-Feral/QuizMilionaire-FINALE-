@@ -9,7 +9,7 @@ namespace QuizMilionaire
     {
         static void Main(string[] args)
         {
-            bool use_console = true;
+            bool use_console = false;
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
