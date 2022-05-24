@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Configuration;
+using System.IO;
 
 namespace QuizMilionaire
 {
@@ -27,7 +29,7 @@ namespace QuizMilionaire
         // Add a new question
         public void AddQuestion(string input)
         {
-            string answerA, answerB, answerC, answerD, result;
+            string answerA ="", answerB = "", answerC = "", answerD = "", result = "";
 
             string defaultsA = "    A.                                                                                                                  ";
             string defaultsB = "    B.                                                                                                                  ";
@@ -83,6 +85,11 @@ namespace QuizMilionaire
                         result = Console.ReadLine();
                         break;
                 }
+            }
+
+            using (StreamWriter sw = File.AppendText(ConfigurationManager.AppSettings.Get("FileName")))
+            {
+                sw.WriteLine(string.Format(Environment.NewLine + "{0};{1};{2};{3};{4};{5}", input, answerA, answerB, answerC, answerD, result));
             }
             Console.WriteLine("Question saved! Press enter to return...");
             Console.ReadKey();

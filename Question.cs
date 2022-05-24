@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 
@@ -40,7 +41,7 @@ namespace QuizMilionaire
             List<Question> questions = new List<Question>();
 
             string fileName = ConfigurationManager.AppSettings.Get("FileName");
-            // Stream streamFisierText = File.Open(fileName, FileMode.Create);
+            //Stream streamFisierText = File.Open(fileName, FileMode.Create);
             Stream streamFisierText = File.Open(fileName, FileMode.Open);
             using (StreamReader reader = new StreamReader(streamFisierText))
             {

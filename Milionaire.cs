@@ -70,7 +70,8 @@ namespace QuizMilionaire
             if(score < 15)
             {
                 Random random = new Random();
-                ID = random.Next(1, Question.GetCounter()-1);
+                ID = random.Next(1, Question.GetCounter() - 1);
+
                 //check_if_asked(ID);
                 question_box.Text = questions[ID].GetQuestion();
                 btn_option_A.Text = questions[ID].GetA();

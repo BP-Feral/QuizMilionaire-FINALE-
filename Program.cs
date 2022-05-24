@@ -9,6 +9,7 @@ namespace QuizMilionaire
     {
         static void Main(string[] args)
         {
+            bool use_console = true;
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
@@ -37,49 +38,48 @@ namespace QuizMilionaire
                 }
             }
 
-            // Main program
-            // List<Question> questions = new List<Question>();
-            // Question question = new Question("template", "A", "B", "C", "D", "S");
-            // questions = question.Init();
+            if (use_console)
+            {
+                List<Question> questions = new List<Question>();
+                Question question = new Question("template", "A", "B", "C", "D", "S");
+                questions = question.Init();
 
-            // int score = 1;
-            // string input = "";
-            // Call the menu interface
-            // DEACTIVATE TO LET FORMS WORK
-            // Menu menu = new Menu();
-            // input = menu.Init();
-            // if (input != "")
-            // {
-            //     Console.WriteLine(input);
-            //     menu.AddQuestion(input);
-            // }
-            
-            // Application loop
-            // while (true)
-            // {
-            //    Random random = new Random();
-            //    int ID = random.Next(1, 15);
-            //    string result = menu.PrintQuestion(score,
-            //        questions[ID].GetQuestion(),
-            //        questions[ID].GetA(),
-            //        questions[ID].GetB(),
-            //        questions[ID].GetC(),
-            //        questions[ID].GetD(),
-            //        questions[ID].GetSolution()
-            //        );
-            //
-            //    if (result == questions[ID].GetSolution())
-            //    {
-            //        score++;
-            //    } else
-            //    {
-            //        menu.resultScreen(score);
-            //        break;
-            //    }
-            //}
+                int score = 1;
+                string input = "";
 
-            // Application close automatically W/
-            //Console.ReadKey();
+                Menu menu = new Menu();
+                input = menu.Init();
+                if (input != "")
+                {
+                    Console.WriteLine(input);
+                    menu.AddQuestion(input);
+                }
+
+                while (true)
+                {
+                    Random random = new Random();
+                    int ID = random.Next(1, 15);
+                    string result = menu.PrintQuestion(score,
+                        questions[ID].GetQuestion(),
+                        questions[ID].GetA(),
+                        questions[ID].GetB(),
+                        questions[ID].GetC(),
+                        questions[ID].GetD(),
+                        questions[ID].GetSolution()
+                        );
+                    if (result == questions[ID].GetSolution())
+                    {
+                        score++;
+                    }
+                    else
+                    {
+                        menu.resultScreen(score);
+                        break;
+                    }
+                }
+                Console.ReadKey();
+            }
+
         }
     }
 }

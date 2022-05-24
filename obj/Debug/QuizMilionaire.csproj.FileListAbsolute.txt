@@ -20,3 +20,13 @@ C:\Users\BlackPigeon\Desktop\QuizMilionaire\obj\Debug\QuizMilionaire.csproj.Gene
 C:\Users\BlackPigeon\Desktop\QuizMilionaire\obj\Debug\QuizMilionaire.csproj.CoreCompileInputs.cache
 C:\Users\BlackPigeon\Desktop\QuizMilionaire\obj\Debug\QuizMilionaire.exe
 C:\Users\BlackPigeon\Desktop\QuizMilionaire\obj\Debug\QuizMilionaire.pdb
+C:\Users\STUDENT\Desktop\QuizMilionaire-FINALE--master\bin\Debug\QuizMilionaire.exe.config
+C:\Users\STUDENT\Desktop\QuizMilionaire-FINALE--master\bin\Debug\QuizMilionaire.exe
+C:\Users\STUDENT\Desktop\QuizMilionaire-FINALE--master\bin\Debug\QuizMilionaire.pdb
+C:\Users\STUDENT\Desktop\QuizMilionaire-FINALE--master\obj\Debug\QuizMilionaire.csproj.AssemblyReference.cache
+C:\Users\STUDENT\Desktop\QuizMilionaire-FINALE--master\obj\Debug\QuizMilionaire.Milionaire.resources
+C:\Users\STUDENT\Desktop\QuizMilionaire-FINALE--master\obj\Debug\QuizMilionaire.Properties.Resources.resources
+C:\Users\STUDENT\Desktop\QuizMilionaire-FINALE--master\obj\Debug\QuizMilionaire.csproj.GenerateResource.cache
+C:\Users\STUDENT\Desktop\QuizMilionaire-FINALE--master\obj\Debug\QuizMilionaire.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\Desktop\QuizMilionaire-FINALE--master\obj\Debug\QuizMilionaire.exe
+C:\Users\STUDENT\Desktop\QuizMilionaire-FINALE--master\obj\Debug\QuizMilionaire.pdb
