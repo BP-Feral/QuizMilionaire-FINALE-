@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 
 namespace QuizMilionaire
@@ -16,8 +17,10 @@ namespace QuizMilionaire
         
         int ID = 0;
 
+        static int counter = 0;
         // Constructor
         public Question(
+
             string _question, string _answerA, string _answerB, 
             string _answerC, string _answerD, string _solution)
         {
@@ -28,15 +31,17 @@ namespace QuizMilionaire
             answerD = _answerD;
             solution = _solution;
             ID = ID++;
+
         }
         
         // Initialization - method to read the questions from file
         public List<Question> Init()
         {
             List<Question> questions = new List<Question>();
-            
-            // Stream streamFisierText = File.Open("Intrebari.txt", FileMode.Create);
-            Stream streamFisierText = File.Open("Intrebari.txt", FileMode.Open);
+
+            string fileName = ConfigurationManager.AppSettings.Get("FileName");
+            // Stream streamFisierText = File.Open(fileName, FileMode.Create);
+            Stream streamFisierText = File.Open(fileName, FileMode.Open);
             using (StreamReader reader = new StreamReader(streamFisierText))
             {
                 string fileLine;
@@ -44,8 +49,10 @@ namespace QuizMilionaire
                 {
                     string[] temp = fileLine.Split(';');
                     questions.Add(new Question(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5]));
+                    counter++;
                 }
             }
+
             return questions;
         }
 
@@ -83,6 +90,11 @@ namespace QuizMilionaire
         public string GetSolution()
         {
             return solution;
+        }
+
+        public static int GetCounter()
+        {
+            return counter;
         }
     }
 }

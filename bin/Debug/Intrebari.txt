@@ -3,13 +3,21 @@ Which country gifted the Statue of Liberty to the US?;Germany;Italy;France;Roman
 What is the rarest blood type?;Group B-Positive;Group A-Positive;Groub AB-Negative;Group B-Negative;C
 How many bones are there in the human body?;200;206;210;213;B
 What is the name of the actor who played Jack in Titanic?;Leonardo DiCaprio;Will Smith;Sean Penn;Gary Oldman;A
-In which ocean is the Bermuda Triangle located?;The Atlantic Ocean;The Indian Ocean;Atlantic Ocean;The Pacific Ocean;C
+In which ocean is the Bermuda Triangle located?;The Atlantic Ocean;The Indian Ocean;The Actic Ocean;The Pacific Ocean;A
 Which fictional city is the home of Batman?;Seabrook City;Gotham City;Springwood City;Westview City;B
 Which planet is closest to Earth?;Venus;Mars;Jupiter;Uranus;A
 Harry, Niall, Louis, Liam, and Zayn were in a band. What was it called?;The Beatles;Aerosmith;Pik Floyd;One Direction;D
 Who is the author of the Harry Potter series?;Stephen King;Amy Tan;J.K. Rowling;Khaled Hosseini;C
 Fe is the chemical symbol for which element?;Gold;Iron;Carbon;Sulfur;B
 What temperature (in Fahrenheit) does water freeze at?;0;50;72;32;D
-What language is the most popularly spoken worldwide?;English;French;Chinese;Russian;C
 What vegetable is known to help you see in the dark?;Onion;Garlic;Broccoli;Carrot;D
 Which astrological sign’s symbol is a crab?;Aries;Leo;Cancer;Virgo;C
+Harry, Niall, Louis, Liam, and Zayn were in a band. What was it called?;The Beatles;Aerosmith;Pik Floyd;One Direction;D
+What is the name of the main antagonist in the Shakespeare play Othello?;Iago;Hex;Spite;Malice;A
+What element is denoted by the chemical symbol Sn in the periodic table?;Tungsten;Tin;Silver;Nitrogen;B
+Who was the head of state in Japan during the second world war?;Charles Savarin;Ram Nath Kovind;Emperor Hirohito;Stevo Pendarovski;C
+Which legendary surrealist artist is famous for painting melting clocks?;Salvador Dali;Michelangelo;Leonardo da Vinci;Rembrandt;A
+How many human players are there on each side in a polo match?;Two;Eight;Twelve;Four;D
+What is the capital of New Zealand?;Thailand;China;Wellington;Serbia;C
+From what grain is the Japanese spirit Sake made?;Rice;Wheat;Oats;Barley;A
+Which Tennis Grand Slam is played on a clay surface?;Germany Open;French Open;Wimbledon;US;B
